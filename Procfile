@@ -1,1 +1,1 @@
-web: cloud-torrent
+web: mh-torrent
