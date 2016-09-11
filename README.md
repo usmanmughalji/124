@@ -23,7 +23,7 @@ See [the latest release](https://github.com/Mehedidec/mh-torrent/releases/latest
 *[Go](https://golang.org/dl/) is required to install from source*
 
 ``` sh
-$ go get -v github.com/jpillora/cloud-torrent
+$ go get -v github.com/Mehedidec/mh-torrent
 ```
 
 **Docker**
