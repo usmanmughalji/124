@@ -1,10 +1,10 @@
 {
-	"name": "cloud-torrent",
-	"website": "https://github.com/jpillora/cloud-torrent",
-	"repository": "https://github.com/jpillora/cloud-torrent",
+	"name": "mh-torrent",
+	"website": "https://github.com/Mehedidec/mh-torrent",
+	"repository": "https://github.com/Mehedidec/mh-torrent",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
+			"description": "Optionally set the title of this instance (defaults to 'MH Torrent')",
 			"required": false
 		},
 		"AUTH": {
