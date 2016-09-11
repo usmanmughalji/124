@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/Mehedidec/mh-torrent/server"
-	"github.com/Mehedidec/opts"
+	"github.com/jpillora/opts"
 )
 
 var VERSION = "0.0.0-src" //set with ldflags
