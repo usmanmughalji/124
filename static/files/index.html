@@ -1,11 +1,11 @@
 <html ng-app="app" >
 	<head>
-		<title ng-bind="state.Stats.Title">MH Torrent</title>
+		<title ng-bind="state.Stats.Title">iPad TechSpot Torrent Leecher</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/Lato/Lato.css">
 		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 		<link rel="stylesheet" type="text/css" href="css/app.css">
-		<link rel="icon" href="cloud-favicon.png" type="image/x-icon" />
+		<link rel="icon" href="its-favicon.PNG" type="image/x-icon" />
 		<style type="text/css">[ng-cloak]{display: none;}</style>
 	</head>
 	<body class="app"><div ng-cloak class="cage">
@@ -55,7 +55,7 @@
 		<section class="downloads" ng-controller="DownloadsController" ng-include src="'template/downloads.html'"></section>
 
 		<footer>
-			<span>github.com/<a href="https://github.com/Mehedidec" target="_blank">Mehedi Hasan</a>/<a href="https://github.com/Mehedidec/mh-torrent" target="_blank">MH-torrent</a> version {{ state.Stats.Version }}	-	</span>
+			<span><a href="http://ipadtechspot.blogspot.com" target="_blank">iTS Homepage</a>/<a href="https://www.youtube.com/channel/UCFxjIwdkMwnS0XPdn-jRDhw" target="_blank">iTS YouTube</a> version {{ state.Stats.Version }}	-	</span>
 			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users connected	-	</span>
 			<span><a href="https://golang.org" target="_blank">Go</a> {{ state.Stats.Runtime }}</span>
 		</footer>
