@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Mehedidec/mh-torrent/engine"
-	"github.com/Mehedidec/mh-torrent/static"
+	"github.com/ipadtechspot/iTS-torrent/engine"
+	"github.com/ipadtechspot/iTS-torrent/static"
 	"github.com/jpillora/go-realtime"
 	"github.com/jpillora/requestlog"
 	"github.com/jpillora/scraper/scraper"
