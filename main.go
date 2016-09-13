@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/Mehedidec/mh-torrent/server"
+	"github.com/ipadtechspot/iTS-torrent/server"
 	"github.com/jpillora/opts"
 )
 
@@ -11,9 +11,9 @@ var VERSION = "0.0.0-src" //set with ldflags
 
 func main() {
 	s := server.Server{
-		Title:      "MH Torrent",
+		Title:      "iPad TechSpot Torrent Leecher",
 		Port:       3000,
-		ConfigPath: "mh-torrent.json",
+		ConfigPath: "iTS-torrent.json",
 	}
 
 	o := opts.New(&s)
