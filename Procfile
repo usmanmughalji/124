@@ -1,1 +1,1 @@
-web: mh-torrent
+web: iTS-torrent
