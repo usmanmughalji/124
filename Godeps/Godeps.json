@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/Mehedidec/mh-torrent",
+	"ImportPath": "github.com/ipadtechspot/iTS-torrent",
 	"GoVersion": "go1.5.3",
 	"Deps": [
 		{
